@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="./static/images/logo.jpg" alt="image" height="50" width="50">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">XXXX Ikastetxea</h4>
+                    <p class="chatbox__description--header">¡Hola! Estás hablando con el soporte de XXXX Ikastetxea. ¿En qué te puedo ayudar?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Escriba su mensaje...">
+                <button class="chatbox__send--footer send__button">Enviar</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/descarga.jfif') }}" height="57px" width="40px"/></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        var $SCRIPT_ROOT = '{{ request.script_root|tojson|safe }}';
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
