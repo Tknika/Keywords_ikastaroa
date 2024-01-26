@@ -1,0 +1,11 @@
+{
+    "name": "Keyword ikastaroa",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "spencerwmiles.vscode-task-buttons"
+            ]
+        }
+    }
+}
