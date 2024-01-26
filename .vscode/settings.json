@@ -1,0 +1,14 @@
+{
+    "VsCodeTaskButtons.tasks": [
+        {
+            "label": "Launch Hasiera",
+            "task": "Launch Hasiera",
+            "tooltip": "Launch \"Hasiera\" chatbot in the background"
+        },
+        {
+            "label": "Launch Bukaera",
+            "task": "Launch Bukaera",
+            "tooltip": "Launch \"Bukaera\" chatbot in the background"
+        }
+    ],
+}
