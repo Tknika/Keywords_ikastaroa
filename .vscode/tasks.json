@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Hasiera",
+            "type": "shell",
+            "command": "python '1 keywords(Hasiera)/chatbot.py'",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated"
+            }
+        },
+        {
+            "label": "Launch Bukaera",
+            "type": "shell",
+            "command": "python '2 keywords (Bukaera)/chatbot.py'",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "dedicated"
+            }
+        },
+    ]
+}
