@@ -4,6 +4,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "ms-python.python",
                 "spencerwmiles.vscode-task-buttons"
             ]
         }
