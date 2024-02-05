@@ -8,7 +8,7 @@ body {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background: #F1F1F1;
+    background: #000;
 }
 
 *, html {
@@ -18,6 +18,20 @@ body {
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #9f58eb;
 }
+
+/* FONDO
+=============== */
+.fondo{
+    background-color: #000;
+    height: max-content;
+}
+
+.fondo img{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
 
 /* CHATBOX
 =============== */
