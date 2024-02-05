@@ -4,7 +4,7 @@
         {
             "label": "Launch Hasiera",
             "type": "shell",
-            "command": "python '1 keywords(Hasiera)/chatbot.py'",
+            "command": "python3 '1 keywords(Hasiera)/chatbot.py'",
             "presentation": {
                 "reveal": "silent",
                 "panel": "dedicated"
@@ -13,7 +13,7 @@
         {
             "label": "Launch Bukaera",
             "type": "shell",
-            "command": "python '2 keywords (Bukaera)/chatbot.py'",
+            "command": "python3 '2 keywords (Bukaera)/chatbot.py'",
             "presentation": {
                 "reveal": "silent",
                 "panel": "dedicated"
