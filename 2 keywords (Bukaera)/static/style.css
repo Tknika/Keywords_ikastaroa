@@ -12,11 +12,23 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #e7aa64 0.52%, #f7cf77 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #e7aa64 -2.14%, #f7cf77 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #cc3 0.52%, #f7cf77 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #cc3 -2.14%, #f7cf77 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
     --primary: #9f58eb;
+}
+/* FONDO
+=============== */
+.fondo{
+    background-color: #000;
+    height: max-content;
+}
+
+.fondo img{
+    width: 100%;
+    height: auto;
+    padding: 5% 575px;
 }
 
 /* CHATBOX
@@ -72,7 +84,7 @@ body {
 }
 
 .messages__item {
-    background: orange;
+    background: #cc3;
     max-width: 60.6%;
     width: fit-content;
 }
