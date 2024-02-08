@@ -2,7 +2,7 @@
 import re
 import input_data as data
 from flask import *
-
+from flask_cors import CORS
 
 app = Flask(__name__)
 
@@ -62,7 +62,7 @@ def engine():
 
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000)
+    app.run(host='0.0.0.0', port=5000)
 
 
 
