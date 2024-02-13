@@ -12,6 +12,19 @@ CORS(app)
 def clean_text(query):
 
     sentence = query.lower()
+
+    #Azkenengo puntua, koma, punto y koma edo bi puntu kendu
+    if sentence.endswith('.') or sentence.endswith(',') or sentence.endswith(';') or sentence.endswith(':'):
+        sentence = sentence[:-1]
+
+    #Esaldiari azkenengo ? kendu
+    if sentence.endswith('?'):
+        sentence = sentence[:-1]
+    
+    #Esaldiari hasierako ¿ kendu
+    if sentence.startswith('¿'):
+        sentence = sentence[1:] 
+
     
     tildes = ['á','é','í','ó','ú','ü']
     vocales = ['a','e','i','o','u','u']
@@ -20,9 +33,12 @@ def clean_text(query):
         sentence = re.sub(tildes[idx], vocal, sentence)
 
     sentence_array = sentence.split()
-
+    # ¿ eta ? hitzei kendu 
+"""  
     sentence_array = [word.strip('¿') for word in sentence_array]
     sentence_array = [word.strip('?') for word in sentence_array]
+"""
+
 
     return sentence_array
 
