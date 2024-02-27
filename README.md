@@ -7,7 +7,7 @@ Ikastaroan hasierako proiektua abiapuntua harturik eta egin behar diren zeregina
 Amaitutako proiektua ere pasatuko zaie. Hala, norbaitek erronka amaitzen ez badu, erreferentzia bat izango du etxean egiteko.
 Bukaeran beste ariketa batzuk eskeiniko zaizkie bere kabuz egiteko.
 
-Repositorioa erabiltzeko:
+Repositorioa lokalean erabiltzeko:
 1.- Repositorioa jaitsi. "Code" botoi berdean sakatu eta "Download Zip" erabili
 2.- Ordenagailuan "Keywords_ikastaroa-main" karpeta deskonprimitu. Bertan bai proiektuaren hasiera eta bukaera aurkotuko dugu.
 
