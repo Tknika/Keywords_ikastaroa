@@ -33,13 +33,7 @@ def clean_text(query):
         sentence = re.sub(tildes[idx], vocal, sentence)
 
     sentence_array = sentence.split()
-    # ¿ eta ? hitzei kendu 
-"""  
-    sentence_array = [word.strip('¿') for word in sentence_array]
-    sentence_array = [word.strip('?') for word in sentence_array]
-"""
-
-
+ 
     return sentence_array
 
 
