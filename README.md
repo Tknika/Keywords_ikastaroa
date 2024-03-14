@@ -9,7 +9,7 @@ Bukaeran beste ariketa batzuk eskeiniko zaizkie bere kabuz egiteko.
 
 Repositorioa lokalean erabiltzeko:
 1.- Repositorioa jaitsi. "Code" botoi berdean sakatu eta "Download Zip" erabili
-2.- Ordenagailuan "Keywords_ikastaroa-main" karpeta deskonprimitu. Bertan bai proiektuaren hasiera eta bukaera aurkotuko dugu.
+2.- Ordenagailuan "Keywords_ikastaroa-main" karpeta deskonprimitu. Bertan bai proiektuaren hasiera eta bukaera aurkituko dugu.
 
 Proiektua exekutatzeko:
 1.- python chatbot.py
